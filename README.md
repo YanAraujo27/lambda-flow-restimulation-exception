@@ -76,7 +76,7 @@ A mesma lógica foi implementada em **três linguagens (Python, Go e Java)** uti
 | Critério                   | Python (SOLID)     | Go (MVC)             | Java (Clean Arch)     |
 |---------------------------|--------------------|----------------------|------------------------|
 | 🧠 Arquitetura aplicada    | SOLID + Serviços    | MVC                  | Clean Architecture     |
-| 🚀 Tempo de cold start     | Médio (~200ms)     | Baixíssimo (~40ms)   | Alto (>600ms)          |
+| 🚀 Tempo de cold start     | Médio (~100ms)     | Baixíssimo (~40ms)   | Alto (>600ms)          |
 | 🧪 Facilidade de teste     | Alta               | Alta                 | Alta                   |
 | 🛠 Complexidade do código  | Média              | Baixa                | Alta                   |
 | 📦 Tamanho do deploy       | Pequeno            | Muito pequeno        | Grande (JAR > 10MB)    |
@@ -93,8 +93,8 @@ Esses benchmarks são estimativas para **funções simples com mensagens pequena
 
 | Linguagem | Cold Start (ms) | Execução (ms) | Deploy (MB) |
 |-----------|------------------|----------------|-------------|
-| Go        | ~40 ms           | ~20 ms         | ~3 MB       |
-| Python    | ~200 ms          | ~30–50 ms      | ~6 MB       |
+| Go        | ~40 ms           | ~10 ms         | ~3 MB       |
+| Python    | ~100 ms          | ~15–40 ms      | ~6 MB       |
 | Java      | ~600 ms          | ~50–100 ms     | ~15 MB      |
 
 ---
